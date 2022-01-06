@@ -197,6 +197,7 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   margin-bottom: 100px;
+  align-items: center;
 }
 
 .about-me .about-me-img {
@@ -209,7 +210,6 @@ body {
 
 .about-me .about-me-info {
   width: 60%;
-  padding-top: 88px;
 }
 
 .about-me .about-me-info h1 {
@@ -247,7 +247,6 @@ body {
 
 .career-in-webdev .career-info {
   padding-right: 60px;
-  padding-top: 88px;
 }
 .career-in-webdev .career-img img {
   width: 90%;
