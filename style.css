@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lobster", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Yeseva One", cursive;
+}
+
+/* Focused Section Start */
+
+.focused-section {
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 100px;
+}
+
+.focused-section .focused-info {
+  width: 50%;
+  padding-top: 200px;
+}
+
+.focused-section .focused-info .header-line {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.focused-section .focused-info .header-line .rectangle-line {
+  width: 4px;
+  height: 126px;
+  background-color: #ff5959;
+  border-radius: 5px;
+  margin-top: 11px;
+}
+
+.focused-section .focused-info .header-line .mission {
+  padding-left: 18px;
+}
+
+.focused-section .focused-info .header-line .mission h1 {
+  font-size: 60px;
+  font-family: "Yeseva One", cursive;
+  padding-bottom: 10px;
+}
+
+.focused-section .focused-info h1 span {
+  color: #ffad5a;
+}
+
+.focused-section .focused-info p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-bottom: 28px;
+}
+
+.focused-section .focused-info .explore-button {
+  padding: 10px 25px;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(#ff512f, #dd2476);
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.focused-section .focused-info .explore-button:hover {
+  background-image: linear-gradient(#cc2b5e, #753a88);
+  font-weight: 500;
+}
+
+.focused-section .focused-info .scroll-me {
+  font-size: 16px;
+  padding-top: 40px;
+}
+
+.focused-section .focused-img {
+  width: 50%;
+}
+
+.focused-section .focused-img img {
+  width: 60%;
+  float: right;
+}
+
+/* Focused Section End */
+
+/* My Mission Section Start */
+
+.my-mission {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+}
+
+.my-mission .mission-headline h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 85px;
+}
+
+.my-mission .mission-headline h1 span {
+  color: #ffad5a;
+}
+
+.my-mission .stages {
+  display: flex;
+}
+
+.my-mission .stages .stage-misson {
+  width: 33.33%;
+  background-color: rgba(79, 157, 166, 0.1);
+  border-radius: 26px;
+  padding: 25px 32px;
+  margin-right: 30px;
+  box-shadow: 5px 5px 7px #8080804d;
+}
+
+.my-mission .stages .stage-misson img {
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.my-mission .stages .stage-misson h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.my-mission .stages .stage-misson p {
+  font-family: "Poppins", sans-serif;
+}
+
+.my-mission .stages .vission {
+  width: 33.33%;
+  background-color: #ffeeee;
+  border-radius: 26px;
+  padding: 25px 32px;
+  margin-right: 30px;
+  margin-left: 30px;
+  box-shadow: 5px 5px 7px #8080804d;
+}
+
+.my-mission .stages .vission img {
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.my-mission .stages .vission h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.my-mission .stages .vission p {
+  font-family: "Poppins", sans-serif;
+}
+
+.my-mission .stages .goals {
+  width: 33.33%;
+  background-color: #fff4d6;
+  border-radius: 26px;
+  padding: 25px 32px;
+  margin-left: 30px;
+  box-shadow: 5px 5px 7px #8080804d;
+}
+
+.my-mission .stages .goals img {
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.my-mission .stages .goals h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.my-mission .stages .goals p {
+  font-family: "Poppins", sans-serif;
+}
+
+/* My Mission Section End */
+
+/* About Me Section Start*/
+
+.about-me {
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 100px;
+}
+
+.about-me .about-me-img {
+  width: 40%;
+}
+
+.about-me .about-me-img img {
+  width: 70%;
+}
+
+.about-me .about-me-info {
+  width: 60%;
+  padding-top: 88px;
+}
+
+.about-me .about-me-info h1 {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 28px;
+  font-weight: bold;
+}
+
+.about-me .about-me-info p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-bottom: 42px;
+}
+
+.about-me .about-me-info .down-button {
+  padding: 10px 25px;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(#ff512f, #dd2476);
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.about-me .about-me-info .down-button:hover {
+  background-image: linear-gradient(#cc2b5e, #753a88);
+  font-weight: 500;
+}
+/* About Me Section End*/
+
+/* Career in Webdev Section Start*/
+
+.career-in-webdev .career-info {
+  padding-right: 60px;
+  padding-top: 88px;
+}
+.career-in-webdev .career-img img {
+  width: 90%;
+  float: right;
+}
+
+/* Career in Webdev Section End*/
+
+/* My Skills Section Start */
+
+.dev-skills {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 100px;
+}
+
+.dev-skills h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  padding-bottom: 85px;
+}
+
+.dev-skills .first-row {
+  display: flex;
+}
+
+.dev-skills .full-element {
+  text-align: center;
+  width: 33.33%;
+  padding: 25px 32px;
+  margin-right: 30px;
+}
+
+.dev-skills .skill-img {
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+.dev-skills .h-element {
+  color: #ff5959;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.dev-skills .p-element {
+  font-family: "Poppins", sans-serif;
+}
+
+.dev-skills .second-row {
+  display: flex;
+}
+
+/* My Skills Section End */
+
+/* Footer Section Start */
+
+#footer-section {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#footer-section h3 {
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 36px;
+  padding-bottom: 27px;
+}
+
+#footer-section h3 span {
+  color: #ff5959;
+}
+
+#footer-section p {
+  color: #d9dbe1;
+  font-size: 14px;
+  font-family: Manrope;
+}
+
+/* Footer Section End */
